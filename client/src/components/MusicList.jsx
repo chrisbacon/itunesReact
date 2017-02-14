@@ -8,7 +8,7 @@ var MusicList = React.createClass({
 
 		var songs = this.props.songs.map(function(song,index){
 
-			return <Song key={index} song={song}/>
+			return <Song key={index} rank={index} song={song}/>
 
 		})
 

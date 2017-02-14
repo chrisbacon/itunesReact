@@ -4,7 +4,7 @@ var React = require('react');
 var Song = function(props) {
 	return(
 		<li>
-			{props.song.title.label}
+			{props.rank + 1}: {props.song.title.label}
 		</li>
 	)
 }
